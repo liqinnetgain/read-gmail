@@ -20,7 +20,7 @@ mailin.start({
 
 /* Access simplesmtp server instance. */
 mailin.on('authorizeUser', function(connection, username, password, done) {
-    if (username == "johnsmith" && password == "mysecret") {
+    if (username == "ectiviseservice" && password == "ESPL888espl") {
         done(null, true);
     } else {
         done(new Error("Unauthorized!"), false);
